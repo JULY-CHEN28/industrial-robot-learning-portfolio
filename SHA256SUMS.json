@@ -13,7 +13,7 @@
   "docs/experiments.md": "6e6fd5febc6d94c29b72237e4c6c90c73faa69f7842fc895a3bd9f858ce06c36",
   "docs/reproduction.md": "b478caa7f047cdacc61bc2dd0e33275ac4ad9615321ce6616b505525d8df42a1",
   "NOTICE.md": "989fababa2d04e687e0b3e0dd84ca53d63304f0cecca92248eb0059ca8b6f755",
-  "README.md": "5993ad73fca777b720a60208e0df439411ba2b58ad6b4b6ba6e3600123094a32",
+  "README.md": "618f8daecc131da377cb0fbc1e4bf665d4141aac3081a7377dc5f2ae5a4e0fd1",
   "results/isaaclab/author_model_inspection.json": "08ffa2edd767eb5a18d1a4e8c112a82bd94a33c3f74c9daabc427177b96b871b",
   "results/isaaclab/comparison.json": "326c952a303d8cded0e7f50cc724d57e7998a609decad26609610b3c1494276c",
   "results/isaaclab/paired/author_510000/evaluation_env.json": "d33d7b56157aaaf99ab702e6151235b7179f7f7b88dc6c0f33651decd24db311",
@@ -98,5 +98,6 @@
   "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/tests/test_controller_state.py": "a25969c6487917e8a961c87a1c688d8c0e1807a585f1e56064c1c795833cf48c",
   "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/train.py": "5bd2f0d3a5a62bd030bbb91c781bd55d65c8dd90d8469a38a44498ccad24ec5c",
   "tools/verify_results.py": "ecb07414b990762b62c8392bd15e1c34b57cd2d5d2525b4646a7dc3e67675a04",
-  "VALIDATION.md": "539d4eb9ac8ba8ebac1bdfd70788ca2a0ba77f08b03949269c717def59426ee2"
+  "VALIDATION.md": "539d4eb9ac8ba8ebac1bdfd70788ca2a0ba77f08b03949269c717def59426ee2",
+  "assets/figures/system-roadmap.svg": "94387300ed48cbe1f0f51739c81898411e9768f1744c8a9fd73ca6cd6d0350e9"
 }

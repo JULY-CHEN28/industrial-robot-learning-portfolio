@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="440" viewBox="0 0 1100 440" role="img" aria-labelledby="title desc">
+  <title id="title">项目总体技术路线与强化学习研究位置</title>
+  <desc id="desc">总体方案从检测任务理解、多模态感知、主动检测规划，经机器人执行、多模态检测，形成结果与反馈。当前强化学习仿真研究聚焦机器人执行控制。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#8091a7"/></marker>
+    <marker id="blue-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#2563eb"/></marker>
+  </defs>
+  <rect width="1100" height="440" rx="16" fill="#f6f8fc"/>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <text x="38" y="43" font-size="20" font-weight="700" fill="#172b4d">项目总体技术路线</text>
+    <text x="1062" y="43" text-anchor="end" font-size="14" fill="#52657c">蓝色区域：当前强化学习仿真研究</text>
+    <g fill="white" stroke="#d8e1ed" stroke-width="1.5">
+      <rect x="38" y="78" width="302" height="112" rx="12"/>
+      <rect x="399" y="78" width="302" height="112" rx="12"/>
+      <rect x="760" y="78" width="302" height="112" rx="12"/>
+      <rect x="399" y="248" width="302" height="112" rx="12"/>
+      <rect x="38" y="248" width="302" height="112" rx="12"/>
+    </g>
+    <rect x="760" y="248" width="302" height="112" rx="12" fill="#eaf1ff" stroke="#2563eb" stroke-width="2"/>
+    <g font-size="19" font-weight="700" fill="#172b4d">
+      <text x="62" y="114">01　检测任务理解</text>
+      <text x="423" y="114">02　多模态感知</text>
+      <text x="784" y="114">03　主动检测规划</text>
+      <text x="784" y="284" fill="#174ab0">04　机器人执行控制</text>
+      <text x="423" y="284">05　多模态质量检测</text>
+      <text x="62" y="284">06　结果与反馈</text>
+    </g>
+    <g font-size="14" fill="#52657c">
+      <text x="62" y="148">解析对象、区域、缺陷类型与约束</text>
+      <text x="423" y="148">工件定位、区域理解与几何表征</text>
+      <text x="784" y="148">生成视点、接触点、姿态与路径</text>
+      <text x="784" y="318" fill="#174ab0">目标到达 · 稳定保持 · 连续执行</text>
+      <text x="423" y="318">视觉初检与触觉、深度局部精检</text>
+      <text x="62" y="318">缺陷定位、质量判定与策略调整</text>
+    </g>
+    <g fill="none" stroke="#8091a7" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M340 134 H387"/>
+      <path d="M701 134 H748"/>
+      <path d="M911 190 V236"/>
+      <path d="M760 304 H713"/>
+      <path d="M399 304 H352"/>
+    </g>
+    <path d="M189 360 V398 H911 V372" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="6 5" marker-end="url(#blue-arrow)"/>
+    <rect x="408" y="383" width="284" height="28" rx="8" fill="#f6f8fc"/>
+    <text x="550" y="402" text-anchor="middle" font-size="14" fill="#174ab0">依据检测反馈调整后续执行目标</text>
+  </g>
+</svg>
