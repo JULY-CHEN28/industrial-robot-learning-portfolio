@@ -1,0 +1,189 @@
+{
+  "task": "Gen3-Reach-v0",
+  "test_seeds": [
+    510000,
+    610000
+  ],
+  "device": "cuda:6",
+  "position_threshold_m": 0.05,
+  "orientation_threshold_rad": 0.2,
+  "hold_s": 0.5,
+  "checks": [
+    {
+      "test_seed": 510000,
+      "target_sequence": "IDENTICAL",
+      "reset_schedule": "IDENTICAL",
+      "runtime_environment": "IDENTICAL excluding object memory addresses",
+      "independent_count_verification": "PASS"
+    },
+    {
+      "test_seed": 610000,
+      "target_sequence": "IDENTICAL",
+      "reset_schedule": "IDENTICAL",
+      "runtime_environment": "IDENTICAL excluding object memory addresses",
+      "independent_count_verification": "PASS"
+    }
+  ],
+  "previous_ours44_result_reproduced": true,
+  "aggregate": {
+    "author": {
+      "target_windows": 640,
+      "counts": {
+        "position_reached": 508,
+        "position_hold": 488,
+        "pose_reached": 180,
+        "pose_hold": 173
+      },
+      "rates_percent": {
+        "position_reached": 79.375,
+        "position_hold": 76.25,
+        "pose_reached": 28.125,
+        "pose_hold": 27.03125
+      },
+      "all_step_position_mean_cm": 7.322369143366814,
+      "all_step_orientation_mean_deg": 32.57425473677426,
+      "window_end_position_mean_cm": 5.269134983409458,
+      "window_end_orientation_mean_deg": 18.875187964300732,
+      "policy_sha256": "159d9007983a07018d5235666b0f474b43ff4fcfc537ab3f5c6e9e800ccddf26"
+    },
+    "ours44": {
+      "target_windows": 640,
+      "counts": {
+        "position_reached": 544,
+        "position_hold": 512,
+        "pose_reached": 227,
+        "pose_hold": 206
+      },
+      "rates_percent": {
+        "position_reached": 85.0,
+        "position_hold": 80.0,
+        "pose_reached": 35.46875,
+        "pose_hold": 32.1875
+      },
+      "all_step_position_mean_cm": 5.73570653796196,
+      "all_step_orientation_mean_deg": 32.55644331096615,
+      "window_end_position_mean_cm": 3.310977485361946,
+      "window_end_orientation_mean_deg": 18.065693928010486,
+      "policy_sha256": "ef06712f8faba10efec50edb8c3be6b3d8532b72faf5bae971f2241dccd1ab40"
+    }
+  },
+  "per_seed": {
+    "author_510000": {
+      "task": "Gen3-Reach-v0",
+      "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/pretrained_models/reach/policy.pt",
+      "policy_path": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/pretrained_models/reach/policy.pt",
+      "device": "cuda:6",
+      "policy_sha256": "159d9007983a07018d5235666b0f474b43ff4fcfc537ab3f5c6e9e800ccddf26",
+      "test_seed": 510000,
+      "num_envs": 64,
+      "steps": 720,
+      "dt": 0.03333333333333333,
+      "observation_corruption": false,
+      "complete_target_windows": 320,
+      "position_threshold_m": 0.05,
+      "orientation_threshold_rad": 0.2,
+      "hold_s": 0.5,
+      "hold_samples": 16,
+      "position_mean_m": 0.07371214777231216,
+      "position_median_m": 0.033466458320617676,
+      "orientation_mean_rad": 0.5641550421714783,
+      "final_position_mean_m": 0.05496837749524275,
+      "final_orientation_mean_rad": 0.3184858130814973,
+      "counts": {
+        "position_reached": 247,
+        "position_hold": 234,
+        "pose_reached": 90,
+        "pose_hold": 85
+      },
+      "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+    },
+    "ours44_510000": {
+      "task": "Gen3-Reach-v0",
+      "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+      "policy_path": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+      "device": "cuda:6",
+      "policy_sha256": "ef06712f8faba10efec50edb8c3be6b3d8532b72faf5bae971f2241dccd1ab40",
+      "test_seed": 510000,
+      "num_envs": 64,
+      "steps": 720,
+      "dt": 0.03333333333333333,
+      "observation_corruption": false,
+      "complete_target_windows": 320,
+      "position_threshold_m": 0.05,
+      "orientation_threshold_rad": 0.2,
+      "hold_s": 0.5,
+      "hold_samples": 16,
+      "position_mean_m": 0.059237100183963776,
+      "position_median_m": 0.03164549171924591,
+      "orientation_mean_rad": 0.5655920505523682,
+      "final_position_mean_m": 0.034459437664190774,
+      "final_orientation_mean_rad": 0.3088977017556317,
+      "counts": {
+        "position_reached": 269,
+        "position_hold": 254,
+        "pose_reached": 119,
+        "pose_hold": 111
+      },
+      "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+    },
+    "author_610000": {
+      "task": "Gen3-Reach-v0",
+      "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/pretrained_models/reach/policy.pt",
+      "policy_path": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/pretrained_models/reach/policy.pt",
+      "device": "cuda:6",
+      "policy_sha256": "159d9007983a07018d5235666b0f474b43ff4fcfc537ab3f5c6e9e800ccddf26",
+      "test_seed": 610000,
+      "num_envs": 64,
+      "steps": 720,
+      "dt": 0.03333333333333333,
+      "observation_corruption": false,
+      "complete_target_windows": 320,
+      "position_threshold_m": 0.05,
+      "orientation_threshold_rad": 0.2,
+      "hold_s": 0.5,
+      "hold_samples": 16,
+      "position_mean_m": 0.07273523509502411,
+      "position_median_m": 0.032145895063877106,
+      "orientation_mean_rad": 0.5729009509086609,
+      "final_position_mean_m": 0.05041432217294641,
+      "final_orientation_mean_rad": 0.34038254073821006,
+      "counts": {
+        "position_reached": 261,
+        "position_hold": 254,
+        "pose_reached": 90,
+        "pose_hold": 88
+      },
+      "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+    },
+    "ours44_610000": {
+      "task": "Gen3-Reach-v0",
+      "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+      "policy_path": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+      "device": "cuda:6",
+      "policy_sha256": "ef06712f8faba10efec50edb8c3be6b3d8532b72faf5bae971f2241dccd1ab40",
+      "test_seed": 610000,
+      "num_envs": 64,
+      "steps": 720,
+      "dt": 0.03333333333333333,
+      "observation_corruption": false,
+      "complete_target_windows": 320,
+      "position_threshold_m": 0.05,
+      "orientation_threshold_rad": 0.2,
+      "hold_s": 0.5,
+      "hold_samples": 16,
+      "position_mean_m": 0.05547703057527542,
+      "position_median_m": 0.03244738653302193,
+      "orientation_mean_rad": 0.5708422064781189,
+      "final_position_mean_m": 0.03176011204304814,
+      "final_orientation_mean_rad": 0.3217139796470292,
+      "counts": {
+        "position_reached": 275,
+        "position_hold": 258,
+        "pose_reached": 108,
+        "pose_hold": 95
+      },
+      "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+    }
+  },
+  "limits": "Two target seed groups, selected local seed44 policy, observation noise disabled. Both policies reuse the same 640 retained target windows. Excluded 64 truncated windows per run by fixed duration rule. Not an upstream published benchmark, formal superiority claim, collision or hardware validation."
+}

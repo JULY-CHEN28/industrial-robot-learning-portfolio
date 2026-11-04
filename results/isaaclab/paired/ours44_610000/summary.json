@@ -1,0 +1,29 @@
+{
+  "task": "Gen3-Reach-v0",
+  "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+  "policy_path": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_11-06-26_train_seed44_20261018_110617/exported/policy.pt",
+  "device": "cuda:6",
+  "policy_sha256": "ef06712f8faba10efec50edb8c3be6b3d8532b72faf5bae971f2241dccd1ab40",
+  "test_seed": 610000,
+  "num_envs": 64,
+  "steps": 720,
+  "dt": 0.03333333333333333,
+  "observation_corruption": false,
+  "complete_target_windows": 320,
+  "position_threshold_m": 0.05,
+  "orientation_threshold_rad": 0.2,
+  "hold_s": 0.5,
+  "hold_samples": 16,
+  "position_mean_m": 0.05547703057527542,
+  "position_median_m": 0.03244738653302193,
+  "orientation_mean_rad": 0.5708422064781189,
+  "final_position_mean_m": 0.03176011204304814,
+  "final_orientation_mean_rad": 0.3217139796470292,
+  "counts": {
+    "position_reached": 275,
+    "position_hold": 258,
+    "pose_reached": 108,
+    "pose_hold": 95
+  },
+  "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+}

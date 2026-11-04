@@ -1,0 +1,27 @@
+{
+  "task": "Gen3-Reach-v0",
+  "checkpoint": "<SERVER_WORKSPACE>/projects/kinova_isaaclab_sim2real/logs/rsl_rl/reach_gen3/2026-10-18_10-59-29_train_seed43_20261018_105919/model_999.pt",
+  "policy_sha256": "a0d1982cda8f36c035437141bc49242ec07e0ec0cf8eb20c508c8f0729fbaff8",
+  "test_seed": 510000,
+  "num_envs": 64,
+  "steps": 720,
+  "dt": 0.03333333333333333,
+  "observation_corruption": false,
+  "complete_target_windows": 320,
+  "position_threshold_m": 0.05,
+  "orientation_threshold_rad": 0.2,
+  "hold_s": 0.5,
+  "hold_samples": 16,
+  "position_mean_m": 0.07580726593732834,
+  "position_median_m": 0.02547815628349781,
+  "orientation_mean_rad": 0.5983583331108093,
+  "final_position_mean_m": 0.06318926291860408,
+  "final_orientation_mean_rad": 0.3523691462469287,
+  "counts": {
+    "position_reached": 263,
+    "position_hold": 251,
+    "pose_reached": 84,
+    "pose_hold": 78
+  },
+  "notes": "Diagnostic thresholds chosen for this report, not an upstream benchmark. Pre-action states are paired with their current command; windows split at command changes/resets. No collision/safety claim; no hardware validation; deterministic policy, observation noise disabled."
+}

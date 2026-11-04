@@ -1,0 +1,542 @@
+[
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/kinova_env.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/kinova_env.py",
+    "source_sha256": "f0303694dc984f637fcd58e72a74a22d793441e44735b2d62d1e857f70931029",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/policy_tools.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/policy_tools.py",
+    "source_sha256": "101605b6c8dfbbf0e999f259d3d695f110f0193dccade1bfde159c8e5163d5b7",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/train.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/train.py",
+    "source_sha256": "a3338abe61372420e0467244ac7e28fd43320b36dc58928161872b53d8c298fc",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/evaluate.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/evaluate.py",
+    "source_sha256": "2b5369eec64292ec2b897751e15098b6fdb136e8e68ddc78441e101877cba01e",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/play.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/play.py",
+    "source_sha256": "d8d85b859eca2cf1e055d87cae0f090fe5435f87880428800d6732f3b8104f35",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/check.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/check.py",
+    "source_sha256": "0948fd97b02fd8180fdbfe7e22c78e26282d4b53c61d80f04b6744f6a52fac59",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/requirements.txt",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/requirements.txt",
+    "source_sha256": "2e4ed97e8ea42ad41544b653de07cfe31a2116d4008b5f22f415a9e944182ac3",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/MODEL_SOURCE.md",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/MODEL_SOURCE.md",
+    "source_sha256": "e3cabd019a1c2095eda302739b15ffb7644c84ff9fdedffbcd6c7de6de7d52fd",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/tests/test_controller_state.py",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/tests/test_controller_state.py",
+    "source_sha256": "a25969c6487917e8a961c87a1c688d8c0e1807a585f1e56064c1c795833cf48c",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/models/ppo_gen3_reach_ball_best.zip",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/models/ppo_gen3_reach_ball_best.zip",
+    "source_sha256": "da5d9028b4b731c18b09af870874de953f7053f381c56b1f280ca9805650b6ea",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/zu5_env.py",
+    "published": "simulations/JAKA_ZU5_Real/zu5_env.py",
+    "source_sha256": "0fe9922c853e799272a9e4dd7781784b71ecea143376666c9542026489f1a9cd",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/train_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/train_zu5.py",
+    "source_sha256": "5c6a1561443c71791c0a06e2d7085695cd05e3ea9a12d1d81615aa5c0b671b10",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/continuous_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/continuous_zu5.py",
+    "source_sha256": "ecb9351cb30a822ce0e6b21ecb6d182f2d8e81e52f4a6bbe5f3c23330d90f543",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/robustness_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/robustness_zu5.py",
+    "source_sha256": "f84e3f184ba7d431acc0d7b79cda7b39114730cf4709761ff35abf5d129491df",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/play_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/play_zu5.py",
+    "source_sha256": "c5ed24f9541949468ee8eddbc235296d3352ae17eb1c6653734bd146a6489493",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/check_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/check_zu5.py",
+    "source_sha256": "31a239d5adc5f1f2d018f863742a6b3cebfe9b1797939b7d66d8260646ce5521",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/import_model.py",
+    "published": "simulations/JAKA_ZU5_Real/import_model.py",
+    "source_sha256": "2de3306c63e9b115ff2a1b2747b04941cd9bcec7879293fdb4e0722a7014a931",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/requirements_sim.txt",
+    "published": "simulations/JAKA_ZU5_Real/requirements_sim.txt",
+    "source_sha256": "9c67dd305b13c04c7108b71dd4c2d61851d9f9bfd2805b160efff1384c866abf",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/MODEL_SOURCE.md",
+    "published": "simulations/JAKA_ZU5_Real/MODEL_SOURCE.md",
+    "source_sha256": "6dc9bd27132fbca366aeed54ef5ffb2309234ea544422b49a6c14a9969aea705",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/test_zu5_env.py",
+    "published": "simulations/JAKA_ZU5_Real/test_zu5_env.py",
+    "source_sha256": "8084c396d61e47971af5293391121bb312fc931c163b5313befa7f1af74d3e77",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/test_continuous_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/test_continuous_zu5.py",
+    "source_sha256": "82569aec9d78806ed7a859e72f03437b85d4f821f0b5a9fb8eff3990c736f2f9",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/test_robustness_zu5.py",
+    "published": "simulations/JAKA_ZU5_Real/test_robustness_zu5.py",
+    "source_sha256": "69cd219ae678d640563349d0a962f0d3f7ad2d2a648fc65b371d1d04443e5ad7",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/runs/zu5_first_300k/best_model.zip",
+    "published": "simulations/JAKA_ZU5_Real/runs/zu5_first_300k/best_model.zip",
+    "source_sha256": "e717290bc65654d4fa17e45583394d08a2a10470c7781d5fddc46fd99ea89bb6",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/gen3.xml",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/gen3.xml",
+    "source_sha256": "e1668beec8c71eba76b1ec40ff4c28a81ae192eb9ec53dbd28657edd8d226b5a",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/LICENSE",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/LICENSE",
+    "source_sha256": "50ee431dbfbfcc53d976d3a5a2918e2fff4236f7f3c492d405e98a3f72106736",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/scene.xml",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/scene.xml",
+    "source_sha256": "010591266c2030b318dc5f92ccf622723e0f41a11c288a83b879fdd2852f7395",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/base_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/base_link.stl",
+    "source_sha256": "3e38517e653d58f4160cfdcee34c9dea983d8b3ecb8f2c147444f58235335260",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/bracelet_with_vision_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/bracelet_with_vision_link.stl",
+    "source_sha256": "8bb05e420a88532b4eee3948a0047fb8e7f341c3e5cc971d54e97e2aaffcf878",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/forearm_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/forearm_link.stl",
+    "source_sha256": "a00d96d2c7ec37e9fe4c5fb6d3fa2b4386dfd48fea5ac25632f4cb83b3505105",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/half_arm_1_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/half_arm_1_link.stl",
+    "source_sha256": "8df461a71780d8e2d09104a507584424279d85173adf14867e359f7e58b3bba7",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/half_arm_2_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/half_arm_2_link.stl",
+    "source_sha256": "8a9f38de21648804b3ab7076ec73726031f2ade7c95eb2541d070553e025407b",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/shoulder_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/shoulder_link.stl",
+    "source_sha256": "a98e232e5197f09e9cd520e7a450c21bcec74bc49e2a19ce7cf86c5dc25f2e18",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/spherical_wrist_1_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/spherical_wrist_1_link.stl",
+    "source_sha256": "0b97a5e3b2de535344f8e8d4176d77f0cdb3455b235f35430fa0413208856e66",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/spherical_wrist_2_link.stl",
+    "published": "simulations/Kinova_Gen3_MuJoCo_CPU_Lite/assets/kinova_gen3/assets/spherical_wrist_2_link.stl",
+    "source_sha256": "12271fb7d0ee78fb5642424cf5078be20f0476061e74203db964b674031ce879",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/对照结果汇总.json",
+    "published": "results/isaaclab/comparison.json",
+    "source_sha256": "a0c7bb5c44dc8a4e518003f93cf04df0d28098d3c3cba6d14f7ec2d8705abb02",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/inspection.json",
+    "published": "results/isaaclab/author_model_inspection.json",
+    "source_sha256": "0a3976928899ca15345681a7f882a20d99cec8545ed26a99ccff49dba27c7c03",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_510000/summary.json",
+    "published": "results/isaaclab/paired/author_510000/summary.json",
+    "source_sha256": "4e79cf7ac31f26753f00645db0610293d7b68323f3426d774e49cdf8e4cd3ddc",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_510000/windows.json",
+    "published": "results/isaaclab/paired/author_510000/windows.json",
+    "source_sha256": "9f570b47434b27a7110ed992ab36f01bc3dbf0c85817cbcf047853bb742195ef",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_510000/states.npz",
+    "published": "results/isaaclab/paired/author_510000/states.npz",
+    "source_sha256": "7933ba1ffdeed1d42f5cf53bb1d5795ae1f204ba02413f6bccddd52a92eb7fd7",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_510000/evaluation_env.json",
+    "published": "results/isaaclab/paired/author_510000/evaluation_env.json",
+    "source_sha256": "ecf9863523b8593fe882d7dd36b589fcead2fc7790ba686bf3c218e5cafc7419",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_610000/summary.json",
+    "published": "results/isaaclab/paired/author_610000/summary.json",
+    "source_sha256": "f2f4968caf09bdd7994e7b01f2bb09f261b38e468cd953bb804c92daa8c666d5",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_610000/windows.json",
+    "published": "results/isaaclab/paired/author_610000/windows.json",
+    "source_sha256": "4d393bb410fc0bc736c8dd948d7fa9f9c28f65e49ba1720e8490ae08d49eff81",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_610000/states.npz",
+    "published": "results/isaaclab/paired/author_610000/states.npz",
+    "source_sha256": "3be696ea5d1fdca85df46b04d7005e917b0bf1c3cb03923a6d1826d7707493b0",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/author_610000/evaluation_env.json",
+    "published": "results/isaaclab/paired/author_610000/evaluation_env.json",
+    "source_sha256": "54fe45adfd22fcf969bd6a04891aa2058a77e199bf55c5e52c76377ff893ff61",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_510000/summary.json",
+    "published": "results/isaaclab/paired/ours44_510000/summary.json",
+    "source_sha256": "d1a6557bd7cd8c00fec8f815381a18ede8e92a4565e7b346490a45a3ddac519e",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_510000/windows.json",
+    "published": "results/isaaclab/paired/ours44_510000/windows.json",
+    "source_sha256": "f46e61befcf88ef6507c14b4408c2c3addf976fbde9fbc843b6caacd7a1408e7",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_510000/states.npz",
+    "published": "results/isaaclab/paired/ours44_510000/states.npz",
+    "source_sha256": "2085fcae27c1e3699d7854950d43a4c44cc1e450d3ac534338bf680cd789bdbf",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_510000/evaluation_env.json",
+    "published": "results/isaaclab/paired/ours44_510000/evaluation_env.json",
+    "source_sha256": "ecf9863523b8593fe882d7dd36b589fcead2fc7790ba686bf3c218e5cafc7419",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_610000/summary.json",
+    "published": "results/isaaclab/paired/ours44_610000/summary.json",
+    "source_sha256": "91ffac6acc2fc4c199e81cc4f42f1aaf6e1099d4998f1ff7873462e0ed727e79",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_610000/windows.json",
+    "published": "results/isaaclab/paired/ours44_610000/windows.json",
+    "source_sha256": "c6bc8cb3b8b763a1b69b4d34d17d84f02da6e78c92a645323c669de4cc03417b",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_610000/states.npz",
+    "published": "results/isaaclab/paired/ours44_610000/states.npz",
+    "source_sha256": "9c6fe377ef211e9a22eceeacd2d9f106d1d66058488bd619cf504a2165734c27",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/comparison/ours44_610000/evaluation_env.json",
+    "published": "results/isaaclab/paired/ours44_610000/evaluation_env.json",
+    "source_sha256": "54fe45adfd22fcf969bd6a04891aa2058a77e199bf55c5e52c76377ff893ff61",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/data/seed42/summary.json",
+    "published": "results/isaaclab/training_seed42_evaluation.json",
+    "source_sha256": "6c945e057f8928572e75f2c23df4e3c7aab5faf7f30a0e67e178846a36db103f",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/data/seed43/summary.json",
+    "published": "results/isaaclab/training_seed43_evaluation.json",
+    "source_sha256": "36cb67d2c269f5a97186878c8eb6db70e2d54a1db2017bea817ce52cf5845c35",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/data/seed44/summary.json",
+    "published": "results/isaaclab/training_seed44_evaluation.json",
+    "source_sha256": "dffe81ebbeb64e0b8c18bf67f6c7ae58fb1cd96a06f5e55635d0662292aff116",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/reports/clearance_short_410000.json",
+    "published": "results/kinova_mujoco/clearance_short_410000.json",
+    "source_sha256": "ed478e79599be275ecfdc6cf442bbb9bd0b79d8243615de83f505b7b42ae20f2",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/reports/clearance_long_510000.json",
+    "published": "results/kinova_mujoco/clearance_long_510000.json",
+    "source_sha256": "d2c3f837fe4c93761b73b47814e0b1c35c2b66ef46cc2571743a4b0fe9ca9dee",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/evaluation_410000.json",
+    "published": "results/jaka_mujoco/evaluation_410000.json",
+    "source_sha256": "d11e5170eaf207c395bc868440ba23280325540855805017c9c25cd4dc25ea91",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/random_410000.json",
+    "published": "results/jaka_mujoco/random_410000.json",
+    "source_sha256": "d19fbdb015aa369462a8f2a36fb77388ce6db098223121a2420acce1746df070",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/continuous_60s_510000.json",
+    "published": "results/jaka_mujoco/continuous_60s_510000.json",
+    "source_sha256": "7734a560938657b7e7c79b84b2c03edd5cf42559492c279e44e2c765f1c5d823",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/continuous_300s_610000.json",
+    "published": "results/jaka_mujoco/continuous_300s_610000.json",
+    "source_sha256": "24faed670420532861a56518b86d4da9dcf6067d9713851ed30a50139865dc0a",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/bias_minus20pct.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/bias_minus20pct.json",
+    "source_sha256": "2052f4cec5ad2a0671fc6cd0f9bc04b13801b82746fa99a6834e4960e3c432aa",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/combined_mild.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/combined_mild.json",
+    "source_sha256": "ecddef84606ebcd87cfd5ad6644567f3201b1c19845c434d7a6a17acc7a1b5e9",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/combined_stress.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/combined_stress.json",
+    "source_sha256": "65176233e31871f3bbc6f9161bcba5d97ace99c3cce16b2265a76d2f057c0ff0",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/command_delay_32ms.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/command_delay_32ms.json",
+    "source_sha256": "3f1532dcf906073e690b16ef0a702a7c48dd09e51265496c20409e7248a29c35",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/command_delay_96ms.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/command_delay_96ms.json",
+    "source_sha256": "87bbe93fadb001eb783717a659d1a503833bb0322c77d943887c149b5bda4664",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/gains_minus20pct.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/gains_minus20pct.json",
+    "source_sha256": "f22db43e77c2915dec1e587d8d4d367b1e1334ea34db6782a9ef4d09a3285f14",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/mass_plus20pct.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/mass_plus20pct.json",
+    "source_sha256": "b9bb8db7d72e86a92a1a10b1f7bff93b669755c051f90dfc4a74d0962a8b7b48",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/nominal.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/nominal.json",
+    "source_sha256": "aa3d40167aef3a0471afbb8cbc97bc9197aada4ebc043ff9883a8f5946cdc43b",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/observation_delay_32ms.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/observation_delay_32ms.json",
+    "source_sha256": "ff13376d10d7bb3ed2343949a1fccf04775dfd0c167a190093a6a3e5e4529b96",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/observation_delay_96ms.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/observation_delay_96ms.json",
+    "source_sha256": "a90370b5967c80b25e6b84959a6f663956980657ab9e590101dfbb977bcbab33",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/sensor_mild.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/sensor_mild.json",
+    "source_sha256": "099d9755ce20b6568b0e2dbacb3807ba6f3d8bfb3e800cdc34b96dcf1dfc7238",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/sensor_stress.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/sensor_stress.json",
+    "source_sha256": "c7f1aa16c7c75f3ed128e0f41eb2cce678b8e5bedabfaa784dd0a54f06dd6f31",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/summary.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/summary.json",
+    "source_sha256": "ecc81365cbcc0669c3353c5655ac8d80610368c73908c9cd77e8f3d838fb17d6",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/target_bias_10mm.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/target_bias_10mm.json",
+    "source_sha256": "4c6d230e56fe9653eb9eecceb44d7bd11abaa987067b9a238e386031119bcfb7",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_screen_710000/target_bias_30mm.json",
+    "published": "results/jaka_mujoco/robustness_screen_710000/target_bias_30mm.json",
+    "source_sha256": "e8834447d56f6fe3c8c271fe1a2917fe68256995501a4352285e561fb3f713b0",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/combined_mild.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/combined_mild.json",
+    "source_sha256": "8f910e8fcc73d3090bc8d36a6657650cc9905545ae2c9cf5fafa9ff6474715df",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/combined_stress.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/combined_stress.json",
+    "source_sha256": "7cc56e28f144d974664d6082d0137545e1286f035fe9732238d059813e6311a2",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/command_delay_96ms.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/command_delay_96ms.json",
+    "source_sha256": "7c064dc1e7de1f06e21dd7b08dc2a8f9ffa0ef956d2949c63db0e1133512f175",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/nominal.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/nominal.json",
+    "source_sha256": "56e884cbba36ef23197cd002b7fd06bd683a594425b61a4fe57089df8dba822f",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/summary.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/summary.json",
+    "source_sha256": "86c506b5c0f5bef5822ab91604f8c478dd00895fae7fb73821c67330446e9f9c",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm_810000/target_bias_30mm.json",
+    "published": "results/jaka_mujoco/robustness_confirm_810000/target_bias_30mm.json",
+    "source_sha256": "3d24da2f7ec8c4f0ea0e70326a45b51e01b719153b3a2c1cfd5bd46b030d5e27",
+    "transformation": "local path placeholders; JSON formatting"
+  },
+  {
+    "source": "deliverables/作者预训练策略核查_2026-10-29/作者与本地策略对照.png",
+    "published": "assets/figures/isaaclab-comparison.png",
+    "source_sha256": "874ac11bef339f8099a576ee04ae180ed17f553c5901ccbdf397e2b592699fb3",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/01_三组训练曲线.png",
+    "published": "assets/figures/isaaclab-training.png",
+    "source_sha256": "2cc53ad4ebf8729e55374b63d421ebe96ca0da3f24e011c49336b1dfa0e0de63",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/RTX原生渲染/原生回放首帧.png",
+    "published": "assets/figures/isaaclab-replay.png",
+    "source_sha256": "bacde7dfae04f822f11cf6d95a0cc7b9b0eda2c70292f92e267c99f73a57716b",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "deliverables/IsaacLab_汇报_2026-10-29/RTX原生渲染/Kinova_RTX_replay.mp4",
+    "published": "assets/videos/kinova-isaaclab-replay.mp4",
+    "source_sha256": "3ca394b2651c69e54a40136821015ef2e698dd59b48f2ecca9f765120975015e",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "Kinova_Gen3_MuJoCo_CPU_Lite/reports/training_progress.png",
+    "published": "assets/figures/kinova-cpu-training.png",
+    "source_sha256": "b918b3142738a45254731135ab57fce6d3065f594d4080eeafc192b2792a30fd",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/zu5_continuous.gif",
+    "published": "assets/videos/jaka-continuous.gif",
+    "source_sha256": "2dbee17b5ca7a180cdf61a6cc008fedf000ddf383a5f17b9cf7161287634b7d2",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/robustness_confirm.png",
+    "published": "assets/figures/jaka-robustness.png",
+    "source_sha256": "cf74db31597cf2ca70407c6a819c9383b285f5a7e78f0c175abf60252b1b3893",
+    "transformation": "byte-identical"
+  },
+  {
+    "source": "JAKA_ZU5_Real/reports/training_progress.png",
+    "published": "assets/figures/jaka-training.png",
+    "source_sha256": "3d0248791fbb93a88b3f21b12fe36153c01cb5b10f4fe269a4ffcf85e77084b1",
+    "transformation": "byte-identical"
+  }
+]

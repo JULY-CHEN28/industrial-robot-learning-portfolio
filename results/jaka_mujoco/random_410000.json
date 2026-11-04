@@ -1,0 +1,58 @@
+{
+  "episodes": 60,
+  "seed": 410000,
+  "reached": 8,
+  "held_0_5s": 0,
+  "reach_rate": 0.13333333333333333,
+  "hold_rate": 0.0,
+  "mean_error_m": 0.16659890642301586,
+  "mean_final_error_m": 0.19952791859126376,
+  "mean_first_reach_s": 5.528,
+  "collision_step_fraction": 0.0033333333333333335,
+  "max_joint_speed_rad_s": 0.5341427569659415,
+  "max_penetration_m": 0.0001834280388376296,
+  "mujoco_warning_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "config": {
+    "scene_sha256": "b28b1fd8c406be1fd22ca129280162098cbe3c9040971d9a9534d611d71fb5db",
+    "robot": "jaka_zu5",
+    "contract_version": 1,
+    "observation_size": 36,
+    "action_size": 6,
+    "control_dt": 0.032,
+    "physics_dt": 0.002,
+    "action_scale_rad": 0.8,
+    "reference_speed_rad_s": 0.5,
+    "reference_accel_rad_s2": 1.0,
+    "tracking_error_rad": 0.15,
+    "episode_steps": 250,
+    "position_tolerance_m": 0.025,
+    "target_joint_sampling_half_width_rad": [
+      0.3,
+      0.2,
+      0.3,
+      0.25,
+      0.2,
+      0.25
+    ],
+    "home_rad": [
+      0.0,
+      0.5,
+      1.2,
+      0.0,
+      1.57,
+      0.0
+    ],
+    "tcp": "Link6 origin; no tool",
+    "target": "non-colliding point marker; one target per episode",
+    "controller": "provisional PD + bias compensation and velocity feedforward under shared torque clamp"
+  },
+  "baseline": "uniform random normalized joint position actions"
+}

@@ -1,0 +1,2 @@
+# Preserve the published bytes for SHA256SUMS across platforms.
+* -text

@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+sdk/
+third_party/
+generated/
+private/
+simulations/JAKA_ZU5_Real/assets/
