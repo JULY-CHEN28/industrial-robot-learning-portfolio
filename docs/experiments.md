@@ -40,4 +40,4 @@
 
 ## 数据整理
 
-JSON仅替换本机和服务器工作目录，并重新排版；数值、种子和模型哈希不变。NPZ原始数组按字节保留。原始来源、变换方式与原文件SHA256见 `results/provenance.json`；发布文件哈希见 `SHA256SUMS.json`。
+JSON仅替换本机和服务器工作目录，并重新排版；数值、种子和模型哈希不变。源代码及文档统一为LF换行，NPZ原始数组按字节保留。原始来源、变换方式与原文件SHA256见 `results/provenance.json`；发布文件哈希见 `SHA256SUMS.json`。

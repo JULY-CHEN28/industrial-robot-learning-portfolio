@@ -1,2 +1,7 @@
-# Preserve the published bytes for SHA256SUMS across platforms.
-* -text
+* text=auto eol=lf
+*.npz binary
+*.png binary
+*.gif binary
+*.mp4 binary
+*.zip binary
+*.stl binary
